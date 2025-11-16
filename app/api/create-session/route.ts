@@ -1,6 +1,6 @@
 import { WORKFLOW_ID } from "@/lib/config";
 
-export const runtime = "edge";
+export const runtime = "node.js";
 
 interface CreateSessionRequestBody {
   workflow?: { id?: string | null } | null;
